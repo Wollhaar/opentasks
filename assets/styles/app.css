@@ -1,3 +1,22 @@
 body {
     background-color: skyblue;
+    /*font-size: 1rem;*/
+}
+
+.title {padding: 50px 20px}
+
+.teaser {
+    padding: 10px 20px;
+
+  .teaser-text {
+      font-size: 0.7rem;
+      font-style: italic;
+  }
+}
+.description {
+    padding: 30px 30px;
+
+    .description-text {
+        /*font-size: 1rem;*/
+    }
 }
