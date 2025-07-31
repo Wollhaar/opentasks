@@ -1,0 +1,15 @@
+{% extends 'interface/interface.html.twig' %}
+
+{% block title %}Tasks{% endblock %}
+
+{% block interface %}
+    <div class="box-tasks">
+        {% block tasks %}
+            {% if taskList %}
+                {% for task in taskList %}
+                    <li class="record-task"><a href="{{ path('task_details', {'taskId': task.id}) }}">{{ task.data.name }}: {{ task.data.teaser }}</a></li>
+                {% endfor %}
+            {% endif %}
+        {% endblock %}
+    </div>
+{% endblock %}
