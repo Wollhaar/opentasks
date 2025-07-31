@@ -1,4 +1,11 @@
+#self-added
+bin
+#composer
+composer.lock
+#symfony
+symfony.lock
 
+#generated
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -13,11 +20,6 @@
 /phpunit.xml
 .phpunit.result.cache
 ###< phpunit/phpunit ###
-
-###> symfony/phpunit-bridge ###
-.phpunit.result.cache
-/phpunit.xml
-###< symfony/phpunit-bridge ###
 
 ###> symfony/asset-mapper ###
 /public/assets/
